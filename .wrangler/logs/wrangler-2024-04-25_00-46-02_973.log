@@ -1,0 +1,40 @@
+
+--- 2024-04-25T00:46:03.936Z debug
+🪵  Writing logs to "/home/officialmofabs/.config/.wrangler/logs/wrangler-2024-04-25_00-46-02_973.log"
+---
+
+--- 2024-04-25T00:46:03.936Z debug
+Failed to load .env file ".env": Error: ENOENT: no such file or directory, open '.env'
+    at Object.openSync (node:fs:596:3)
+    at Object.readFileSync (node:fs:464:35)
+    at tryLoadDotEnv (/home/officialmofabs/dev.git/cloudflare-workers-sdk/dloudflare-dev/node_modules/wrangler/wrangler-dist/cli.js:124915:72)
+    at loadDotEnv (/home/officialmofabs/dev.git/cloudflare-workers-sdk/dloudflare-dev/node_modules/wrangler/wrangler-dist/cli.js:124924:12)
+    at /home/officialmofabs/dev.git/cloudflare-workers-sdk/dloudflare-dev/node_modules/wrangler/wrangler-dist/cli.js:167363:20
+    at /home/officialmofabs/dev.git/cloudflare-workers-sdk/dloudflare-dev/node_modules/wrangler/wrangler-dist/cli.js:132342:16
+    at maybeAsyncResult (/home/officialmofabs/dev.git/cloudflare-workers-sdk/dloudflare-dev/node_modules/wrangler/wrangler-dist/cli.js:130563:44)
+    at /home/officialmofabs/dev.git/cloudflare-workers-sdk/dloudflare-dev/node_modules/wrangler/wrangler-dist/cli.js:132341:14
+    at /home/officialmofabs/dev.git/cloudflare-workers-sdk/dloudflare-dev/node_modules/wrangler/wrangler-dist/cli.js:130550:22
+    at Array.reduce (<anonymous>) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '.env'
+}
+---
+
+--- 2024-04-25T00:46:07.379Z log
+ ⛅️ wrangler 3.52.0
+-------------------
+---
+
+--- 2024-04-25T00:46:07.381Z log
+Getting User settings...
+---
+
+--- 2024-04-25T00:46:07.382Z log
+You are not authenticated. Please run `wrangler login`.
+---
+
+--- 2024-04-25T00:46:07.503Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"type":"event","name":"view accounts","properties":{}}.
+---

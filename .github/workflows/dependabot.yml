@@ -1,0 +1,8 @@
+ version: 2
+ updates:
+   - package-ecosystem: "npm" # Enable version updates for NPM/Yarn)
+     directory: 
+      /home/officialmofabs/officialmofabs.git/package.json
+     /home/officialmofabs/officialmofabs.git/package.json
+     schedule:
+       interval: "daily"

@@ -1,0 +1,4 @@
+PS> $PROFILE
+C:\Users\officialmofabs\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+PS> $PROFILE.AllUsersAllHosts
+C:\Program Files\PowerShell\7\profile.ps1
